@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <div className="page-header">
       <div className="horizontal-container">
-        <img className="icon" alt="" src="/5-1@2x.png" />
+        <img className="icon" alt="" src="./5-1@2x.png" />
         <div className="horizontal-container1">
           {isSmallScreen ? (
             <div className="dropdown" onClick={toggleDropdown}>
